@@ -1,32 +1,101 @@
 
-
-<html>
-    <head>
-        <link rel = "stylesheet" href = "style.css">
-    </head>
-    <body>
-
-
-    <div id = "container">
-        <div id = "arrow">
-            <img src = "arrow.png" alt= "hand-drawn style start over!">
+ html>
+<html lang="en">
+  <head>
+   <meta charset="utf-8">
+   <title>Spotify Stacked</title>
+   <link rel="stylesheet" href="styles.css">
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat|Quicksand|Roboto|Roboto+Condensed:bold|Roboto:400italic|Raleway|Inter">
+  </head>
+  <body>
+    <div class="wrapper">
+      <h1>Spotify Stacked</h1>
+      <p>Five Artists on Repeat</p>
+      <div class="thumbnail-wrapper">
+        <div class="cover-wrapper">
+          <a href="#img1">
+            <img src="img/radiohead.png" alt="Radiohead in the typical 90's leather and jeans getup">
+            <h2 class="caption">Radiohead</h2>
+          </a>
         </div>
-        <div id = "can"> 
-            <img src="can.png" alt = "photo-realistic classic silver watering can">
+        <div class="cover-wrapper">
+          <a href="#img2">
+            <img src="img/kanye.jpeg" alt="Kanye West in a tux gazing coolly at the viewer">
+            <h2 class="caption">Kanye West</h2>
+          </a>
         </div>
-        <div id = "drops"> 
-            <img src="drops.png" alt = " hand-drawn style cascade of water drops in two shades of blue">
+        <div class="cover-wrapper" id="sting" id="pop">
+          <a href="#img3">
+            <img src="img/sting.jpeg" alt="Sting propping both of his hands against the corners of a green-lit elevator">
+            <h2 class="caption">Sting</h2>
+          </a>
         </div>
-        <div id = "flower">
-            <img src="sunflower.png" alt = "photo-realistic sunflower with long stem and many leaves">
+        <div class="cover-wrapper" id="daft-punk">
+          <a href="#img4">
+            <img src="img/daft-punk.jpeg" alt="The duo Daft Punk in matching black tuxes and futuristic helmets">
+            <h2 class="caption">Daft Punk</h2>
+          </a>
         </div>
-        <div id = "soil"> </div>
-        <div id = "worm" alt = "happy pink worm with an important message"> 
-            planted by sami g!
-            <img src = "worm.png">
+        <div class="cover-wrapper">
+          <a href="#img5">
+            <img src="img/epik-high.jpeg" alt="Tablo, Mithra Jain, and DJ Tukutz of Epik High in blues, pinks, and greys">
+            <h2 class="caption">Epik High</h2>
+          </a>
         </div>
+      </div>
+    <div class="lightbox-wrapper">
+      <a href="#" class="lightbox" id="img1">
+        <span style="background-image: url('img/radiohead.png')">
+          <div class="bio-wrapper">
+            <h3>Radiohead</h3>
+            <p>Creep • Karma Police • No Surprises • High and Dry</p>
+          </div>
+        </span>
+      </a>
+      <a href="#" class="lightbox" id="img2">
+        <span style="background-image: url('img/kanye.jpeg')">
+          <div class="bio-wrapper">
+            <h3>Kanye West</h3>
+            <p>Robocop • Paranoid • Runaway • Black Skinhead • <br>Coldest Winter • Heartless</p>
+          </div>
+        </span>
+      </a>
+      <a href="#" class="lightbox" id="img3">
+        <span style="background-image: url('img/sting.jpeg')">
+          <div class="bio-wrapper">
+            <h3>Sting</h3>
+            <p>Desert Rose • Shape of My Heart • If I Ever Lose My <br> Faith in You</p>
+          </div>
+        </span>
+      </a>
+      <a href="#" class="lightbox" id="img4">
+        <span style="background-image: url('img/daft-punk.jpeg')">
+          <div class="bio-wrapper">
+            <h3>Daft Punk</h3>
+            <p>Veridis Quo • Beyond • Harder, Better, Faster, Stronger</p>
+          </div>
+        </span>
+      </a>
+      <a href="#" class="lightbox" id="img5">
+        <span style="background-image: url('img/epik-high.jpeg')">
+          <div class="bio-wrapper">
+            <h3>Epik High</h3>
+            <p>헤픈엔딩 Happen Ending • 우산 • Breakdown • Gray So Gray
+              <br>• I Hated Myself (Tablo's World) • Love Love Love
+            </p>
+          </div>
+        </span>
+      </a>
+    <div>
+    <!-- <div class="genres">
+      <p><span id="pop-controller">Pop //</span>
+        <span id="rap">Rap //</span>
+        <span id="rock">Rock //</span>
+        <span id="electro">Electro //</span>
+        <span id="hiphop">Hip Hop</span>
+      </p>
+    </div> -->
 
-    </div>
-    </body>
-
+  </div>
+  </body>
 </html>
